@@ -1,0 +1,20 @@
+# Secrets — NEVER commit the API key
+.env
+
+# Virtual environments
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Vector store (regenerated locally, not needed in the repo)
+chroma_db/
+*.sqlite3
+
+# OS junk
+.DS_Store
+Thumbs.db
+env

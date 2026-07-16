@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FatturaElettronica versione="FPR12" xmlns="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2">
+  <FatturaElettronicaHeader>
+    <DatiTrasmissione>
+      <IdTrasmittente>
+        <IdPaese>IT</IdPaese>
+        <IdCodice>07778880011</IdCodice>
+      </IdTrasmittente>
+      <ProgressivoInvio>0000J</ProgressivoInvio>
+      <FormatoTrasmissione>FPR12</FormatoTrasmissione>
+      <CodiceDestinatario>0000000</CodiceDestinatario>
+    </DatiTrasmissione>
+  <CedentePrestatore>
+    <DatiAnagrafici>
+      <IdFiscaleIVA>
+        <IdPaese>IT</IdPaese>
+        <IdCodice>07778880011</IdCodice>
+      </IdFiscaleIVA>
+      <Anagrafica>
+        <Denominazione>Energia Futura Spa</Denominazione>
+      </Anagrafica>
+        <RegimeFiscale>RF01</RegimeFiscale>
+    </DatiAnagrafici>
+    <Sede>
+      <Indirizzo>Via Stalingrado 45</Indirizzo>
+      <CAP>40128</CAP>
+      <Comune>Bologna</Comune>
+      <Provincia>BO</Provincia>
+      <Nazione>IT</Nazione>
+    </Sede>
+  </CedentePrestatore>
+  <CessionarioCommittente>
+    <DatiAnagrafici>
+      <IdFiscaleIVA>
+        <IdPaese>IT</IdPaese>
+        <IdCodice>12345670018</IdCodice>
+      </IdFiscaleIVA>
+      <Anagrafica>
+        <Denominazione>Innovatech Solutions Srl</Denominazione>
+      </Anagrafica>
+    </DatiAnagrafici>
+    <Sede>
+      <Indirizzo>Via Garibaldi 10</Indirizzo>
+      <CAP>20121</CAP>
+      <Comune>Milano</Comune>
+      <Provincia>MI</Provincia>
+      <Nazione>IT</Nazione>
+    </Sede>
+  </CessionarioCommittente>
+  </FatturaElettronicaHeader>
+  <FatturaElettronicaBody>
+    <DatiGenerali>
+      <DatiGeneraliDocumento>
+        <TipoDocumento>TD01</TipoDocumento>
+        <Divisa>EUR</Divisa>
+        <Data>2026-01-11</Data>
+        <Numero>2026/0019</Numero>
+        <ImportoTotaleDocumento>755.60</ImportoTotaleDocumento>
+      </DatiGeneraliDocumento>
+    </DatiGenerali>
+    <DatiBeniServizi>
+    <DettaglioLinee>
+      <NumeroLinea>1</NumeroLinea>
+      <Descrizione>Fornitura energia elettrica - mese</Descrizione>
+      <Quantita>1.00</Quantita>
+      <PrezzoUnitario>430.00</PrezzoUnitario>
+      <PrezzoTotale>430.00</PrezzoTotale>
+      <AliquotaIVA>22.00</AliquotaIVA>
+    </DettaglioLinee>
+    <DettaglioLinee>
+      <NumeroLinea>2</NumeroLinea>
+      <Descrizione>Fornitura gas - mese</Descrizione>
+      <Quantita>1.00</Quantita>
+      <PrezzoUnitario>210.00</PrezzoUnitario>
+      <PrezzoTotale>210.00</PrezzoTotale>
+      <AliquotaIVA>10.00</AliquotaIVA>
+    </DettaglioLinee>
+    <DatiRiepilogo>
+      <AliquotaIVA>22.00</AliquotaIVA>
+      <ImponibileImporto>430.00</ImponibileImporto>
+      <Imposta>94.60</Imposta>
+      <EsigibilitaIVA>I</EsigibilitaIVA>
+    </DatiRiepilogo>
+    <DatiRiepilogo>
+      <AliquotaIVA>10.00</AliquotaIVA>
+      <ImponibileImporto>210.00</ImponibileImporto>
+      <Imposta>21.00</Imposta>
+      <EsigibilitaIVA>I</EsigibilitaIVA>
+    </DatiRiepilogo>
+    </DatiBeniServizi>
+    <DatiPagamento>
+      <CondizioniPagamento>TP02</CondizioniPagamento>
+      <DettaglioPagamento>
+        <ModalitaPagamento>MP01</ModalitaPagamento>
+        <DataScadenzaPagamento>2026-02-10</DataScadenzaPagamento>
+        <ImportoPagamento>755.60</ImportoPagamento>
+      </DettaglioPagamento>
+    </DatiPagamento>
+  </FatturaElettronicaBody>
+</FatturaElettronica>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FatturaElettronica versione="FPR12" xmlns="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2">
+  <FatturaElettronicaHeader>
+    <DatiTrasmissione>
+      <IdTrasmittente>
+        <IdPaese>IT</IdPaese>
+        <IdCodice>08885550011</IdCodice>
+      </IdTrasmittente>
+      <ProgressivoInvio>UP9003</ProgressivoInvio>
+      <FormatoTrasmissione>FPR12</FormatoTrasmissione>
+      <CodiceDestinatario>0000000</CodiceDestinatario>
+    </DatiTrasmissione>
+    <CedentePrestatore>
+      <DatiAnagrafici>
+        <IdFiscaleIVA>
+          <IdPaese>IT</IdPaese>
+          <IdCodice>08885550011</IdCodice>
+        </IdFiscaleIVA>
+        <Anagrafica>
+          <Denominazione>Ristorante Da Luigi Srl</Denominazione>
+        </Anagrafica>
+        <RegimeFiscale>RF01</RegimeFiscale>
+      </DatiAnagrafici>
+      <Sede>
+        <Indirizzo>Corso Buenos Aires 45</Indirizzo>
+        <CAP>20124</CAP>
+        <Comune>Milano</Comune>
+        <Provincia>MI</Provincia>
+        <Nazione>IT</Nazione>
+      </Sede>
+    </CedentePrestatore>
+    <CessionarioCommittente>
+      <DatiAnagrafici>
+        <IdFiscaleIVA>
+          <IdPaese>IT</IdPaese>
+          <IdCodice>12345670018</IdCodice>
+        </IdFiscaleIVA>
+        <Anagrafica>
+          <Denominazione>Innovatech Solutions Srl</Denominazione>
+        </Anagrafica>
+      </DatiAnagrafici>
+      <Sede>
+        <Indirizzo>Via Garibaldi 10</Indirizzo>
+        <CAP>20121</CAP>
+        <Comune>Milano</Comune>
+        <Provincia>MI</Provincia>
+        <Nazione>IT</Nazione>
+      </Sede>
+    </CessionarioCommittente>
+  </FatturaElettronicaHeader>
+  <FatturaElettronicaBody>
+    <DatiGenerali>
+      <DatiGeneraliDocumento>
+        <TipoDocumento>TD01</TipoDocumento>
+        <Divisa>EUR</Divisa>
+        <Data>2026-07-15</Data>
+        <Numero>2026/9003</Numero>
+        <ImportoTotaleDocumento>891.00</ImportoTotaleDocumento>
+      </DatiGeneraliDocumento>
+    </DatiGenerali>
+    <DatiBeniServizi>
+      <DettaglioLinee>
+        <NumeroLinea>1</NumeroLinea>
+        <Descrizione>Catering evento aziendale</Descrizione>
+        <Quantita>1.00</Quantita>
+        <PrezzoUnitario>900.00</PrezzoUnitario>
+        <ScontoMaggiorazione>
+          <Tipo>SC</Tipo>
+          <Percentuale>10.00</Percentuale>
+          <Importo>90.00</Importo>
+        </ScontoMaggiorazione>
+        <PrezzoTotale>810.00</PrezzoTotale>
+        <AliquotaIVA>10.00</AliquotaIVA>
+      </DettaglioLinee>
+      <DatiRiepilogo>
+        <AliquotaIVA>10.00</AliquotaIVA>
+        <ImponibileImporto>810.00</ImponibileImporto>
+        <Imposta>81.00</Imposta>
+        <EsigibilitaIVA>I</EsigibilitaIVA>
+      </DatiRiepilogo>
+    </DatiBeniServizi>
+    <DatiPagamento>
+      <CondizioniPagamento>TP02</CondizioniPagamento>
+      <DettaglioPagamento>
+        <ModalitaPagamento>MP05</ModalitaPagamento>
+        <DataScadenzaPagamento>2026-08-14</DataScadenzaPagamento>
+        <ImportoPagamento>891.00</ImportoPagamento>
+      </DettaglioPagamento>
+    </DatiPagamento>
+  </FatturaElettronicaBody>
+</FatturaElettronica>

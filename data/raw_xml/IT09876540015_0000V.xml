@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FatturaElettronica versione="FPR12" xmlns="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2">
+  <FatturaElettronicaHeader>
+    <DatiTrasmissione>
+      <IdTrasmittente>
+        <IdPaese>IT</IdPaese>
+        <IdCodice>09876540015</IdCodice>
+      </IdTrasmittente>
+      <ProgressivoInvio>0000V</ProgressivoInvio>
+      <FormatoTrasmissione>FPR12</FormatoTrasmissione>
+      <CodiceDestinatario>0000000</CodiceDestinatario>
+    </DatiTrasmissione>
+  <CedentePrestatore>
+    <DatiAnagrafici>
+      <IdFiscaleIVA>
+        <IdPaese>IT</IdPaese>
+        <IdCodice>09876540015</IdCodice>
+      </IdFiscaleIVA>
+      <Anagrafica>
+        <Denominazione>Ufficio Piu Spa</Denominazione>
+      </Anagrafica>
+        <RegimeFiscale>RF01</RegimeFiscale>
+    </DatiAnagrafici>
+    <Sede>
+      <Indirizzo>Via Tortona 25</Indirizzo>
+      <CAP>20144</CAP>
+      <Comune>Milano</Comune>
+      <Provincia>MI</Provincia>
+      <Nazione>IT</Nazione>
+    </Sede>
+  </CedentePrestatore>
+  <CessionarioCommittente>
+    <DatiAnagrafici>
+      <IdFiscaleIVA>
+        <IdPaese>IT</IdPaese>
+        <IdCodice>12345670018</IdCodice>
+      </IdFiscaleIVA>
+      <Anagrafica>
+        <Denominazione>Innovatech Solutions Srl</Denominazione>
+      </Anagrafica>
+    </DatiAnagrafici>
+    <Sede>
+      <Indirizzo>Via Garibaldi 10</Indirizzo>
+      <CAP>20121</CAP>
+      <Comune>Milano</Comune>
+      <Provincia>MI</Provincia>
+      <Nazione>IT</Nazione>
+    </Sede>
+  </CessionarioCommittente>
+  </FatturaElettronicaHeader>
+  <FatturaElettronicaBody>
+    <DatiGenerali>
+      <DatiGeneraliDocumento>
+        <TipoDocumento>TD01</TipoDocumento>
+        <Divisa>EUR</Divisa>
+        <Data>2026-06-20</Data>
+        <Numero>2026/0031</Numero>
+        <ImportoTotaleDocumento>351.36</ImportoTotaleDocumento>
+      </DatiGeneraliDocumento>
+    </DatiGenerali>
+    <DatiBeniServizi>
+    <DettaglioLinee>
+      <NumeroLinea>1</NumeroLinea>
+      <Descrizione>Toner compatibile HP</Descrizione>
+      <Quantita>3.00</Quantita>
+      <PrezzoUnitario>96.00</PrezzoUnitario>
+      <PrezzoTotale>288.00</PrezzoTotale>
+      <AliquotaIVA>22.00</AliquotaIVA>
+    </DettaglioLinee>
+    <DatiRiepilogo>
+      <AliquotaIVA>22.00</AliquotaIVA>
+      <ImponibileImporto>288.00</ImponibileImporto>
+      <Imposta>63.36</Imposta>
+      <EsigibilitaIVA>I</EsigibilitaIVA>
+    </DatiRiepilogo>
+    </DatiBeniServizi>
+    <DatiPagamento>
+      <CondizioniPagamento>TP02</CondizioniPagamento>
+      <DettaglioPagamento>
+        <ModalitaPagamento>MP05</ModalitaPagamento>
+        <DataScadenzaPagamento>2026-07-20</DataScadenzaPagamento>
+        <ImportoPagamento>351.36</ImportoPagamento>
+      </DettaglioPagamento>
+    </DatiPagamento>
+  </FatturaElettronicaBody>
+</FatturaElettronica>

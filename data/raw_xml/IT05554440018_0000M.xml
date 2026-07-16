@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FatturaElettronica versione="FPR12" xmlns="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2">
+  <FatturaElettronicaHeader>
+    <DatiTrasmissione>
+      <IdTrasmittente>
+        <IdPaese>IT</IdPaese>
+        <IdCodice>05554440018</IdCodice>
+      </IdTrasmittente>
+      <ProgressivoInvio>0000M</ProgressivoInvio>
+      <FormatoTrasmissione>FPR12</FormatoTrasmissione>
+      <CodiceDestinatario>0000000</CodiceDestinatario>
+    </DatiTrasmissione>
+  <CedentePrestatore>
+    <DatiAnagrafici>
+      <IdFiscaleIVA>
+        <IdPaese>IT</IdPaese>
+        <IdCodice>05554440018</IdCodice>
+      </IdFiscaleIVA>
+      <Anagrafica>
+        <Denominazione>Consulenze Rossi e Associati</Denominazione>
+      </Anagrafica>
+        <RegimeFiscale>RF01</RegimeFiscale>
+    </DatiAnagrafici>
+    <Sede>
+      <Indirizzo>Via Nazionale 50</Indirizzo>
+      <CAP>00184</CAP>
+      <Comune>Roma</Comune>
+      <Provincia>RM</Provincia>
+      <Nazione>IT</Nazione>
+    </Sede>
+  </CedentePrestatore>
+  <CessionarioCommittente>
+    <DatiAnagrafici>
+      <IdFiscaleIVA>
+        <IdPaese>IT</IdPaese>
+        <IdCodice>12345670018</IdCodice>
+      </IdFiscaleIVA>
+      <Anagrafica>
+        <Denominazione>Innovatech Solutions Srl</Denominazione>
+      </Anagrafica>
+    </DatiAnagrafici>
+    <Sede>
+      <Indirizzo>Via Garibaldi 10</Indirizzo>
+      <CAP>20121</CAP>
+      <Comune>Milano</Comune>
+      <Provincia>MI</Provincia>
+      <Nazione>IT</Nazione>
+    </Sede>
+  </CessionarioCommittente>
+  </FatturaElettronicaHeader>
+  <FatturaElettronicaBody>
+    <DatiGenerali>
+      <DatiGeneraliDocumento>
+        <TipoDocumento>TD01</TipoDocumento>
+        <Divisa>EUR</Divisa>
+        <Data>2025-06-28</Data>
+        <Numero>2025/0022</Numero>
+        <ImportoTotaleDocumento>1830.00</ImportoTotaleDocumento>
+      </DatiGeneraliDocumento>
+    </DatiGenerali>
+    <DatiBeniServizi>
+    <DettaglioLinee>
+      <NumeroLinea>1</NumeroLinea>
+      <Descrizione>Redazione bilancio annuale</Descrizione>
+      <Quantita>1.00</Quantita>
+      <PrezzoUnitario>1500.00</PrezzoUnitario>
+      <PrezzoTotale>1500.00</PrezzoTotale>
+      <AliquotaIVA>22.00</AliquotaIVA>
+    </DettaglioLinee>
+    <DatiRiepilogo>
+      <AliquotaIVA>22.00</AliquotaIVA>
+      <ImponibileImporto>1500.00</ImponibileImporto>
+      <Imposta>330.00</Imposta>
+      <EsigibilitaIVA>I</EsigibilitaIVA>
+    </DatiRiepilogo>
+    </DatiBeniServizi>
+    <DatiPagamento>
+      <CondizioniPagamento>TP02</CondizioniPagamento>
+      <DettaglioPagamento>
+        <ModalitaPagamento>MP05</ModalitaPagamento>
+        <DataScadenzaPagamento>2025-07-28</DataScadenzaPagamento>
+        <ImportoPagamento>1830.00</ImportoPagamento>
+      </DettaglioPagamento>
+    </DatiPagamento>
+  </FatturaElettronicaBody>
+</FatturaElettronica>

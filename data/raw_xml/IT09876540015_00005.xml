@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FatturaElettronica versione="FPR12" xmlns="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2">
+  <FatturaElettronicaHeader>
+    <DatiTrasmissione>
+      <IdTrasmittente>
+        <IdPaese>IT</IdPaese>
+        <IdCodice>09876540015</IdCodice>
+      </IdTrasmittente>
+      <ProgressivoInvio>00005</ProgressivoInvio>
+      <FormatoTrasmissione>FPR12</FormatoTrasmissione>
+      <CodiceDestinatario>0000000</CodiceDestinatario>
+    </DatiTrasmissione>
+  <CedentePrestatore>
+    <DatiAnagrafici>
+      <IdFiscaleIVA>
+        <IdPaese>IT</IdPaese>
+        <IdCodice>09876540015</IdCodice>
+      </IdFiscaleIVA>
+      <Anagrafica>
+        <Denominazione>Ufficio Piu Spa</Denominazione>
+      </Anagrafica>
+        <RegimeFiscale>RF01</RegimeFiscale>
+    </DatiAnagrafici>
+    <Sede>
+      <Indirizzo>Via Tortona 25</Indirizzo>
+      <CAP>20144</CAP>
+      <Comune>Milano</Comune>
+      <Provincia>MI</Provincia>
+      <Nazione>IT</Nazione>
+    </Sede>
+  </CedentePrestatore>
+  <CessionarioCommittente>
+    <DatiAnagrafici>
+      <IdFiscaleIVA>
+        <IdPaese>IT</IdPaese>
+        <IdCodice>12345670018</IdCodice>
+      </IdFiscaleIVA>
+      <Anagrafica>
+        <Denominazione>Innovatech Solutions Srl</Denominazione>
+      </Anagrafica>
+    </DatiAnagrafici>
+    <Sede>
+      <Indirizzo>Via Garibaldi 10</Indirizzo>
+      <CAP>20121</CAP>
+      <Comune>Milano</Comune>
+      <Provincia>MI</Provincia>
+      <Nazione>IT</Nazione>
+    </Sede>
+  </CessionarioCommittente>
+  </FatturaElettronicaHeader>
+  <FatturaElettronicaBody>
+    <DatiGenerali>
+      <DatiGeneraliDocumento>
+        <TipoDocumento>TD01</TipoDocumento>
+        <Divisa>EUR</Divisa>
+        <Data>2025-06-23</Data>
+        <Numero>2025/0005</Numero>
+        <ImportoTotaleDocumento>738.95</ImportoTotaleDocumento>
+      </DatiGeneraliDocumento>
+    </DatiGenerali>
+    <DatiBeniServizi>
+    <DettaglioLinee>
+      <NumeroLinea>1</NumeroLinea>
+      <Descrizione>Risme carta A4 (cartone da 5)</Descrizione>
+      <Quantita>2.00</Quantita>
+      <PrezzoUnitario>32.50</PrezzoUnitario>
+      <ScontoMaggiorazione>
+        <Tipo>SC</Tipo>
+        <Percentuale>10.00</Percentuale>
+        <Importo>6.50</Importo>
+      </ScontoMaggiorazione>
+      <PrezzoTotale>58.50</PrezzoTotale>
+      <AliquotaIVA>22.00</AliquotaIVA>
+    </DettaglioLinee>
+    <DettaglioLinee>
+      <NumeroLinea>2</NumeroLinea>
+      <Descrizione>Toner compatibile HP</Descrizione>
+      <Quantita>3.00</Quantita>
+      <PrezzoUnitario>96.00</PrezzoUnitario>
+      <PrezzoTotale>288.00</PrezzoTotale>
+      <AliquotaIVA>22.00</AliquotaIVA>
+    </DettaglioLinee>
+    <DettaglioLinee>
+      <NumeroLinea>3</NumeroLinea>
+      <Descrizione>Toner compatibile HP</Descrizione>
+      <Quantita>3.00</Quantita>
+      <PrezzoUnitario>96.00</PrezzoUnitario>
+      <ScontoMaggiorazione>
+        <Tipo>SC</Tipo>
+        <Percentuale>10.00</Percentuale>
+        <Importo>28.80</Importo>
+      </ScontoMaggiorazione>
+      <PrezzoTotale>259.20</PrezzoTotale>
+      <AliquotaIVA>22.00</AliquotaIVA>
+    </DettaglioLinee>
+    <DatiRiepilogo>
+      <AliquotaIVA>22.00</AliquotaIVA>
+      <ImponibileImporto>605.70</ImponibileImporto>
+      <Imposta>133.25</Imposta>
+      <EsigibilitaIVA>I</EsigibilitaIVA>
+    </DatiRiepilogo>
+    </DatiBeniServizi>
+    <DatiPagamento>
+      <CondizioniPagamento>TP02</CondizioniPagamento>
+      <DettaglioPagamento>
+        <ModalitaPagamento>MP08</ModalitaPagamento>
+        <DataScadenzaPagamento>2025-07-23</DataScadenzaPagamento>
+        <ImportoPagamento>738.95</ImportoPagamento>
+      </DettaglioPagamento>
+    </DatiPagamento>
+  </FatturaElettronicaBody>
+</FatturaElettronica>

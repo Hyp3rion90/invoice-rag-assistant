@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FatturaElettronica versione="FPR12" xmlns="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2">
+  <FatturaElettronicaHeader>
+    <DatiTrasmissione>
+      <IdTrasmittente>
+        <IdPaese>IT</IdPaese>
+        <IdCodice>05554440018</IdCodice>
+      </IdTrasmittente>
+      <ProgressivoInvio>0000S</ProgressivoInvio>
+      <FormatoTrasmissione>FPR12</FormatoTrasmissione>
+      <CodiceDestinatario>0000000</CodiceDestinatario>
+    </DatiTrasmissione>
+  <CedentePrestatore>
+    <DatiAnagrafici>
+      <IdFiscaleIVA>
+        <IdPaese>IT</IdPaese>
+        <IdCodice>05554440018</IdCodice>
+      </IdFiscaleIVA>
+      <Anagrafica>
+        <Denominazione>Consulenze Rossi e Associati</Denominazione>
+      </Anagrafica>
+        <RegimeFiscale>RF01</RegimeFiscale>
+    </DatiAnagrafici>
+    <Sede>
+      <Indirizzo>Via Nazionale 50</Indirizzo>
+      <CAP>00184</CAP>
+      <Comune>Roma</Comune>
+      <Provincia>RM</Provincia>
+      <Nazione>IT</Nazione>
+    </Sede>
+  </CedentePrestatore>
+  <CessionarioCommittente>
+    <DatiAnagrafici>
+      <IdFiscaleIVA>
+        <IdPaese>IT</IdPaese>
+        <IdCodice>12345670018</IdCodice>
+      </IdFiscaleIVA>
+      <Anagrafica>
+        <Denominazione>Innovatech Solutions Srl</Denominazione>
+      </Anagrafica>
+    </DatiAnagrafici>
+    <Sede>
+      <Indirizzo>Via Garibaldi 10</Indirizzo>
+      <CAP>20121</CAP>
+      <Comune>Milano</Comune>
+      <Provincia>MI</Provincia>
+      <Nazione>IT</Nazione>
+    </Sede>
+  </CessionarioCommittente>
+  </FatturaElettronicaHeader>
+  <FatturaElettronicaBody>
+    <DatiGenerali>
+      <DatiGeneraliDocumento>
+        <TipoDocumento>TD01</TipoDocumento>
+        <Divisa>EUR</Divisa>
+        <Data>2026-02-27</Data>
+        <Numero>2026/0028</Numero>
+        <ImportoTotaleDocumento>200.00</ImportoTotaleDocumento>
+      </DatiGeneraliDocumento>
+    </DatiGenerali>
+    <DatiBeniServizi>
+    <DettaglioLinee>
+      <NumeroLinea>1</NumeroLinea>
+      <Descrizione>Prestazione esente art.10 DPR 633/72</Descrizione>
+      <Quantita>1.00</Quantita>
+      <PrezzoUnitario>200.00</PrezzoUnitario>
+      <PrezzoTotale>200.00</PrezzoTotale>
+      <AliquotaIVA>0.00</AliquotaIVA>
+      <Natura>N4</Natura>
+    </DettaglioLinee>
+    <DatiRiepilogo>
+      <AliquotaIVA>0.00</AliquotaIVA>
+      <Natura>N4</Natura>
+      <ImponibileImporto>200.00</ImponibileImporto>
+      <Imposta>0.00</Imposta>
+    </DatiRiepilogo>
+    </DatiBeniServizi>
+    <DatiPagamento>
+      <CondizioniPagamento>TP02</CondizioniPagamento>
+      <DettaglioPagamento>
+        <ModalitaPagamento>MP05</ModalitaPagamento>
+        <DataScadenzaPagamento>2026-03-29</DataScadenzaPagamento>
+        <ImportoPagamento>200.00</ImportoPagamento>
+      </DettaglioPagamento>
+    </DatiPagamento>
+  </FatturaElettronicaBody>
+</FatturaElettronica>
